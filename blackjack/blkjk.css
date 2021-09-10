@@ -1,0 +1,51 @@
+*{
+    background:blanchedalmond;
+}
+header{
+    text-align: center;
+    font-family:fantasy;
+    font-size: larger;
+}
+#game{
+    display:grid;
+    grid-template-columns:  20% 20% 20% 20% 20%;
+   grid-template-rows: 13em 9em 19em
+}
+.card{
+    grid-row: 3;    
+    padding-left:20%;
+    
+}
+button{
+    grid-row-start:2;
+    grid-column-start: 2;
+    width: 30%;  
+    height: 30px;
+    margin-left: 27%;
+    align-self:center;
+    font-family:fantasy;
+    background:black;
+    color:blanchedalmond;
+    cursor: pointer;
+}
+
+.house{
+    grid-row:1;
+    padding-left:20%;
+}
+#stand{
+    grid-column-start:4;
+}
+.img{
+    background:whitesmoke;
+    border:black 3px outset;
+    width: 8em;
+}
+ #deck{
+     padding-left:-20%;
+    transform:rotate(-90deg);
+ }
+#hand3{
+    display:none;
+
+}
